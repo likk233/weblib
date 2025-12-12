@@ -13,8 +13,8 @@
 CREATE DATABASE courseapp CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
-## 后端（Spring Boot）cd /Users/lizi/Documents/GitHub/lib/javademo/backend
-                    mvn spring-boot:run
+## 后端（Spring Boot）
+mvn spring-boot:run
 路径：`backend`
 
 1) 配置数据库账号：修改 `backend/src/main/resources/application.properties` 中的 `spring.datasource.username/password`。  
@@ -32,8 +32,8 @@ mvn spring-boot:run
 - 查询学生的课表：`GET /api/students/{id}/courses`
 - 查询课程的学生：`GET /api/courses/{id}/students`
 
-## 前端（Vue3 + Vite）cd /Users/lizi/Documents/GitHub/lib/javademo/frontend
-                    npm run dev
+## 前端（Vue3 + Vite）
+npm run dev
 路径：`frontend`
 
 1) 安装依赖：
